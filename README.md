@@ -27,23 +27,23 @@ Obtain an API key from Google and set it up in your script:
         python hand_gesture_drawing.py
 
 2. **Gesture Controls**
-    **Draw:** Raise the index finger to draw.
-    **Clear Canvas:** Raise the thumb and small finger to clear the canvas.
-    **Save & Analyze:** Raise all fingers except the thumb to save the drawing and send it to the AI for analysis.
+    **- Draw:** Raise the index finger to draw.
+    **- Clear Canvas:** Raise the thumb and small finger to clear the canvas.
+    **- Save & Analyze:** Raise all fingers except the thumb to save the drawing and send it to the AI for analysis.
 
 3. **Exit**
     Press '**q**' to close the application.
 
 ## 📚 Dependencies
 
-    OpenCV
-    NumPy
-    Pillow
-    cvzone
-    Google Generative AI
+    - OpenCV
+    - NumPy
+    - Pillow
+    - cvzone
+    - Google Generative AI
 
-    Install all dependencies with:
-        pip install opencv-python-headless numpy pillow cvzone google-generativeai
+Install all dependencies with:
+    pip install opencv-python-headless numpy pillow cvzone google-generativeai
 
 ## 🎯 Project Objectives
 

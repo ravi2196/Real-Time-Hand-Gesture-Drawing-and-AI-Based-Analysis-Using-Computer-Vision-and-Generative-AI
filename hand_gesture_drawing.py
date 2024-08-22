@@ -77,3 +77,4 @@ while True:
 # Release the capture and close windows
 capture.release()
 cv2.destroyAllWindows()
+# AIzaSyASuLr7I0WDReo98aa2ELzDeEtAbbIFI8Y
