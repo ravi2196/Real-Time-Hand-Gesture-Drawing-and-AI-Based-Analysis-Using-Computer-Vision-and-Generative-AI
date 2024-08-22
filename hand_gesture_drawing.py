@@ -78,3 +78,4 @@ while True:
 capture.release()
 cv2.destroyAllWindows()
 # AIzaSyASuLr7I0WDReo98aa2ELzDeEtAbbIFI8Y
+# Real-Time-Hand-Gesture-Drawing-and-AI-Based-Analysis-Using-Computer-Vision-and-Generative-AI
