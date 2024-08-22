@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hand Tracking Drawing App</title>
-    <!-- Link to the CSS file -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <h1>Hand Tracking Drawing App</h1>
+
+    <div class="introduction">
+        <h2>Welcome to the Hand Tracking Drawing App</h2>
+        <p>This application allows you to create drawings on a digital canvas using just your hand gestures. With the help of computer vision and artificial intelligence, the app tracks the position and movement of your hand in real-time and converts these gestures into drawings on the canvas. There’s no need for a stylus or touch screen—your hand is the only tool you need!</p>
+        <p>Here’s how you can use the app:</p>
+        <ul>
+            <li><strong>Draw with Your Index Finger:</strong> Lift your index finger to begin drawing on the canvas. Move your hand across the screen, and watch as your drawing comes to life in the canvas area.</li>
+            <li><strong>Clear the Canvas:</strong> If you want to start a new drawing, simply raise both your thumb and pinky finger at the same time. This will clear the canvas, allowing you to start fresh.</li>
+            <li><strong>Save Your Artwork:</strong> When you’re happy with your creation, click the "Save Drawing" button. Your artwork will be saved as an image file that you can keep or share.</li>
+            <li><strong>Analyze Your Drawing:</strong> Want to know what your drawing might represent? Click the "Analyze Drawing" button to send your artwork to an AI model, which will analyze it and provide you with insights or interpretations.</li>
+        </ul>
+        <p>Whether you're an artist, a tech enthusiast, or just someone looking to have fun, this app offers a unique way to create digital art. Explore the potential of AI and hand tracking technology and enjoy your creative journey!</p>
+    </div>
+    
     <div class="container">
         <div class="video-container">
             <img id="video-feed" src="{{ url_for('video_feed') }}" width="640" height="480">
@@ -19,8 +32,6 @@
         </div>
         <p id="analysis-result"></p>
     </div>
-
-    <!-- Link to the JavaScript file -->
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
