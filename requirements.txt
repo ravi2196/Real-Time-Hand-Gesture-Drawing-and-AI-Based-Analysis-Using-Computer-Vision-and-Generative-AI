@@ -4,3 +4,4 @@ cvzone
 Pillow
 google-generativeai
 Flask
+mediapipe
